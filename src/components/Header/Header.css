@@ -1,0 +1,142 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: #fff;
+}
+
+.logo {
+    padding: 39px 0 37px 0;
+}
+
+.menu {
+    margin-top: 29px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hamburger {
+    display: none;
+}
+
+.menu div a {
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    position: relative;
+    font-size: 15px;
+    color: #3f4244;
+    transition: .5s ease-in-out;
+}
+
+.menu div a:hover {
+    color: #52e4cb;
+}
+
+.menu div:first-child a {
+    background: #52e4cb;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.menu div:first-child a:hover {
+    background: transparent;
+    color: #52e4cb;
+}
+
+.menu div a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: .5s;
+}
+
+.menu div a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    transition: .5s;
+}
+
+.menu div a:hover::before {
+    width: 100%;
+    background: #52e4cb;
+}
+
+.menu div a:hover::after {
+    width: 100%;
+    background: #52e4cb;
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .logo {
+        text-align: center;
+    }
+
+    .menu {
+        width: 100%;
+        margin: 0;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 50%;
+        margin-top: -10px;
+    }
+
+    .hamburger-menu {
+        float: right;
+        display: block;
+        width: 22px;
+        height: 22px;
+        background: #60f2c8;
+        border-radius: 50%;
+    }
+    .hamburger-menu span {
+        display: block;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-left: -6px;
+        margin-top: -1px;
+        width: 12px;
+        height: 2px;
+        background: #000;
+    }
+
+    .hamburger-menu span::before {
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 2px;
+        background: #000;
+        top: -4px;
+    }
+
+    .hamburger-menu span::after {
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 2px;
+        background: #000;
+        top: 4px;
+    }
+}
+

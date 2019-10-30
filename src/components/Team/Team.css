@@ -1,0 +1,52 @@
+.team {
+    padding: 75px 0 35px 0;
+}
+
+.team-title {
+    font-size: 40px;
+    color: #3f4244;
+    font-weight: 400;
+}
+
+.team-subtitle {
+    margin: 10px 0 100px 0;
+    font-weight: 300;
+}
+
+.team__inner__title {
+    height: 200px;
+    background: #232e3d;
+}
+
+.team__inner__info {
+    background: #58eaca;
+    padding: 30px 0 35px 0;
+}
+
+.team__inner__info__title h4 {
+    font-size: 20px;
+    color: #3f4244;
+    font-weight: 500;
+}
+
+.team__inner__info__title p {
+    color: #fff;
+    font-weight: 400;
+}
+
+.team__inner__info__subtitle {
+    font-size: 15px;
+    color: #3f4244;
+    font-weight: 400;
+}
+
+.team__inner {
+    margin-bottom: 20px;
+    transition: .4s ease-in-out;
+}
+
+.team__inner:hover {
+    transform: scale(0.9);
+}
+
+

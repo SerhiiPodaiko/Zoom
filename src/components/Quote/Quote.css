@@ -1,0 +1,20 @@
+.quote {
+    background: linear-gradient(to bottom, #ff5b55, #ff3658);
+    padding: 100px 0 100px 0;
+    font-weight: 400;
+    color: #ffffff;
+    animation: quote 10s infinite linear;
+}
+
+.quote__inner__title {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+@keyframes quote  {
+    20% {background: #52e4cb;}
+    40% {background: #10cab7;}
+    60% {background: #ff5b55;}
+    80% {background: #ff3558;}
+    100% {background: #ff5b52;}
+}

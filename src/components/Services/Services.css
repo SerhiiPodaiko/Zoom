@@ -1,0 +1,64 @@
+.services {
+    padding: 85px 0 82px 0;
+}
+
+.services_inner h4 {
+    margin: 25px 0 35px 0;
+    font-size: 15px;
+    color: #3f4244;
+}
+
+.service-btn {
+    margin-top: 70px;
+}
+
+.service-btn a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 70px;
+    border-radius: 16px;
+    background: linear-gradient(to bottom, #ff6c54, #f13352);
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+}
+
+.service-btn a:hover {
+    background: transparent;
+    color: #ff4057;
+    transition: .5s ease;
+}
+
+.service-btn a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to bottom, #ff6c54, #f13352);
+    transition: .5s ease;
+}
+
+.service-btn a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to bottom, #ff6c54, #f13352);
+    transition: .5s ease;
+}
+
+.service-btn a:hover::before {
+    width: 100%;
+}
+
+.service-btn a:hover::after {
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+.browser {
+    background: linear-gradient(to bottom, #ff6c54, #ff2f59);
+    padding-top: 92px;
+}
+
+.browser__title {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.browser__subtitle {
+    color: #ffffff;
+    font-weight: 300;
+    margin: 30px 0 130px 0;
+}

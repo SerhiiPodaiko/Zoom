@@ -1,0 +1,32 @@
+.stats {
+    padding: 80px 0 85px 0;
+    background: #233537;
+}
+
+.stats__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stats__inner img {
+    display: block;
+    width: 60px;
+    height: 70px;
+    margin: auto;
+}
+
+.stats__inner .number {
+     display: block;
+     font-size: 40px;
+     color: #ff4057;
+     font-weight: 400;
+    margin: 35px 0 25px 0;
+ }
+
+.stats__inner span:last-child {
+    display: block;
+    color: #10cab7;
+    font-weight: 400;
+}

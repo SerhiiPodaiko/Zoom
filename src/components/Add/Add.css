@@ -1,0 +1,42 @@
+.add {
+    background: #58ebca;
+    padding-top: 125px;
+}
+
+.add__phone {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.add__phone img {
+    position: relative;
+    top: 40px;
+    transition: .4s linear;
+}
+
+.add__phone img:hover {
+    transform: scale(0.9);
+}
+
+.add__info {
+    margin-top: 200px;
+}
+
+.add__info h4 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.add__info h6 {
+    font-size: 15px;
+    color: #243638;
+    font-weight: 500;
+    margin: 10px 0 20px 0;
+}
+
+.add__info p {
+    color: #fff;
+    font-weight: 400;
+}

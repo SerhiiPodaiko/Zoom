@@ -1,0 +1,77 @@
+.phone {
+    padding: 70px 0 70px 0;
+}
+
+.phone__mobile img {
+    transition: .5s ease-in-out;
+}
+
+.phone__mobile img:hover {
+    transform: scale(0.9);
+}
+
+.phone__info {
+    margin-top: 80px;
+}
+
+.phone__info__title {
+    font-size: 40px;
+    color: #3f4244;
+    font-weight: 400;
+}
+
+.phone__info__subtitle {
+    margin: 40px 0 60px 0;
+    font-size: 15px;
+}
+
+.phone__info__btn a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 70px;
+    background: linear-gradient( to bottom, #ff6c54, #ff3558);
+    color: #ffffff;
+    border-radius: 16px;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    transition: .3s;
+}
+
+.phone__info__btn a:hover {
+    background: transparent;
+    color: #ff4057;
+}
+
+.phone__info__btn a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient( to bottom, #ff6c54, #ff3558);
+}
+
+.phone__info__btn a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient( to bottom, #ff6c54, #ff3558);
+}
+
+.phone__info__btn a:hover::before {
+    transition: .5s ease-in-out;
+    width: 100%;
+}
+
+.phone__info__btn a:hover::after {
+    transition: .5s ease-in-out;
+    width: 100%;
+}
